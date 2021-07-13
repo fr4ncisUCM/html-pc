@@ -23,7 +23,7 @@ void mainf()
 
 	archivo.open("clientes.txt", ios::in);
 	if (archivo.fail()) {
-		cout << "f";
+		cout << "faaaa";
 	}
 	tListaClientes listac = cargarClientes(archivo);
 
